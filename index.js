@@ -83,7 +83,7 @@ class Meal {
   static byPrice(){
     return store.meals.sort((a, b)=>{
       if (a.price < b.price){
-        
+        return 1;
       }
     });
   }
