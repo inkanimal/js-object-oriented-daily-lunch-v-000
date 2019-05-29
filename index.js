@@ -85,7 +85,7 @@ class Meal {
       if (a.price < b.price){
         return 1;
       } else {
-        return 0;
+        return -1;
       }
     });
   }
